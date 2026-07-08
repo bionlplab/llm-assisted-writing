@@ -1,0 +1,34 @@
+[
+  {
+    "era": "pre",
+    "input": "/Users/sf/Documents/school/PengLab/ai_changes_science/submission_material/data/pre_dataset.csv",
+    "output": "/Users/sf/Documents/school/PengLab/ai_changes_science/submission_material/data/pre_dataset_validated.csv",
+    "excluded": "/Users/sf/Documents/school/PengLab/ai_changes_science/submission_material/data/pre_dataset_excluded_by_validation.csv",
+    "window_start": "2015-01-01",
+    "window_end": "2022-11-30",
+    "input_rows": 55944,
+    "kept_rows": 53575,
+    "excluded_rows": 2369,
+    "reason_counts": {
+      "empty_abstract": 2369,
+      "invalid_publication_date": 0,
+      "out_of_window": 0
+    }
+  },
+  {
+    "era": "post",
+    "input": "/Users/sf/Documents/school/PengLab/ai_changes_science/submission_material/data/post_dataset.csv",
+    "output": "/Users/sf/Documents/school/PengLab/ai_changes_science/submission_material/data/post_dataset_validated.csv",
+    "excluded": "/Users/sf/Documents/school/PengLab/ai_changes_science/submission_material/data/post_dataset_excluded_by_validation.csv",
+    "window_start": "2022-12-01",
+    "window_end": "2026-02-01",
+    "input_rows": 16123,
+    "kept_rows": 15634,
+    "excluded_rows": 489,
+    "reason_counts": {
+      "empty_abstract": 138,
+      "invalid_publication_date": 0,
+      "out_of_window": 359
+    }
+  }
+]

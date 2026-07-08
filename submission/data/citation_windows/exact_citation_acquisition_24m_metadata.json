@@ -1,0 +1,16 @@
+{
+  "as_of_date": "2026-05-26",
+  "created_at": "2026-05-26T15:23:22Z",
+  "data_completeness": "Complete for fetched target universe: pre-LLM, post-era LLM-independent, and post-era LLM-assisted all have raw OpenAlex target caches.",
+  "denominator_policy": "Paper-month denominator is complete elapsed months through as_of_date, capped at max_months.",
+  "inclusion_policy": "Targets are included only when raw_targets/<OpenAlex id>.json exists.",
+  "max_months": 24,
+  "n_events_input": 1508549,
+  "n_per_paper_rows": 67760,
+  "n_post_assisted_targets_included": 2681,
+  "n_post_independent_targets_included": 12853,
+  "n_pre_targets_included": 52226,
+  "output_name_note": "Clean complete-run copy for the 24m cap; legacy partial_exact filenames are retained in the same directory for compatibility.",
+  "post_dir": "mature_exp/rq4/data/post_llm_citation_timing_dataset",
+  "pre_dir": "mature_exp/rq4/data/pre_llm_citation_timing_dataset"
+}

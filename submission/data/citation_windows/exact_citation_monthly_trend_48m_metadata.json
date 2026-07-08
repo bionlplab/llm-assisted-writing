@@ -1,0 +1,13 @@
+{
+  "as_of_date": "2026-05-26",
+  "created_at": "2026-05-26T20:38:09Z",
+  "denominator_policy": "A paper contributes to month m only if m is observable by as_of_date, capped at max_months.",
+  "events_used": 1508549,
+  "max_months": 48,
+  "month_number_definition": "month_number 1 corresponds to month_since_publication 0.",
+  "panel_rows": 2805124,
+  "paper_units_included": 67760,
+  "partial_data_policy": "Targets are included only if raw_targets/<OpenAlex id>.json exists.",
+  "post_dir": "mature_exp/rq4/data/post_llm_citation_timing_dataset",
+  "pre_dir": "mature_exp/rq4/data/pre_llm_citation_timing_dataset"
+}

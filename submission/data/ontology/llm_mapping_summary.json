@@ -1,0 +1,35 @@
+{
+  "rows": 16105,
+  "by_source_system": {
+    "OpenAlex": 2565,
+    "MeSH": 13540
+  },
+  "by_source_level": {
+    "domain": 4,
+    "field": 26,
+    "subfield": 225,
+    "primary_topic": 2310,
+    "descriptor": 13540
+  },
+  "review_flag_count": 1347,
+  "unique_subtopics_used": 35,
+  "paper_mapping": {
+    "rows": 72067,
+    "mapped_rows": 70446,
+    "unique_subtopics_used": 31,
+    "by_source_level": {
+      "primary_topic": 70446,
+      "unmapped": 1621
+    }
+  },
+  "by_major_topic": {
+    "Health sciences": 6982,
+    "Biological sciences": 9105
+  },
+  "by_confidence_band": {
+    "ge_0_9": 9461,
+    "0_7_to_0_9": 5304,
+    "lt_0_7": 1340
+  },
+  "azure_deployment": "gpt-4.1"
+}

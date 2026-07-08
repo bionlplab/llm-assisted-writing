@@ -1,0 +1,34 @@
+{
+  "batch_size": 32,
+  "device": "mps",
+  "input_csv": "/Users/sf/Documents/school/PengLab/ai_changes_science/mature_exp/dataset/post_dataset.csv",
+  "max_length": 512,
+  "model_dir": "/Users/sf/Documents/school/PengLab/ai_changes_science/mature_exp/bert_training/models/scibert_openai_only",
+  "outputs": {
+    "primary_llm_csv": "/Users/sf/Documents/school/PengLab/ai_changes_science/mature_exp/rq1_visibility_impact/inputs/primary/llm_writing_dataset.csv",
+    "primary_non_llm_csv": "/Users/sf/Documents/school/PengLab/ai_changes_science/mature_exp/rq1_visibility_impact/inputs/primary/non_llm_writing_dataset.csv",
+    "scored_post_dataset_csv": "/Users/sf/Documents/school/PengLab/ai_changes_science/mature_exp/rq1_visibility_impact/inputs/scored_post_dataset.csv",
+    "sensitivity_llm_csv": "/Users/sf/Documents/school/PengLab/ai_changes_science/mature_exp/rq1_visibility_impact/inputs/sensitivity/llm_writing_dataset.csv",
+    "sensitivity_non_llm_csv": "/Users/sf/Documents/school/PengLab/ai_changes_science/mature_exp/rq1_visibility_impact/inputs/sensitivity/non_llm_writing_dataset.csv"
+  },
+  "post_era_cutoff": "2022-12-01",
+  "row_count_all": 16123,
+  "row_count_post_era": 15806,
+  "score_column": "llm_probability",
+  "thresholds": {
+    "primary": {
+      "llm_count_all_rows": 2690,
+      "llm_count_post_era_rows": 2688,
+      "non_llm_count_all_rows": 13433,
+      "non_llm_count_post_era_rows": 13118,
+      "threshold": 0.9998759031295776
+    },
+    "sensitivity": {
+      "llm_count_all_rows": 4441,
+      "llm_count_post_era_rows": 4433,
+      "non_llm_count_all_rows": 11682,
+      "non_llm_count_post_era_rows": 11373,
+      "threshold": 0.999685525894165
+    }
+  }
+}

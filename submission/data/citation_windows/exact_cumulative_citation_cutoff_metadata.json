@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-26T20:38:45Z",
+  "cutoffs": [
+    12,
+    24,
+    36,
+    48
+  ],
+  "metric_definition": "Cumulative non-negative-lag exact citation events through cutoff month. A paper is included for cutoff m only if month m is observable.",
+  "month_number_definition": "month_number 1 corresponds to publication month.",
+  "panel": "mature_exp/rq4/outputs/primary/exact_citation_monthly_trends_48m_complete/exact_citation_paper_month_panel.csv"
+}

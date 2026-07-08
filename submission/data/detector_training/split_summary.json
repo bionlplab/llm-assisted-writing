@@ -1,0 +1,44 @@
+{
+  "combined": {
+    "families": 5000,
+    "label_counts": {
+      "llm": 5000,
+      "no_llm": 5000
+    },
+    "rows": 10000
+  },
+  "family_overlap": {
+    "train_test": 0,
+    "train_val": 0,
+    "val_test": 0
+  },
+  "input_files": {
+    "gemini_csv": "mature_exp/bert_training/data/rewrites/gemini_rewrites_paired.csv",
+    "openai_csv": "mature_exp/bert_training/data/rewrites/openai_rewrites_paired.csv"
+  },
+  "seed": 42,
+  "test": {
+    "families": 750,
+    "label_counts": {
+      "llm": 750,
+      "no_llm": 750
+    },
+    "rows": 1500
+  },
+  "train": {
+    "families": 3500,
+    "label_counts": {
+      "llm": 3500,
+      "no_llm": 3500
+    },
+    "rows": 7000
+  },
+  "val": {
+    "families": 750,
+    "label_counts": {
+      "llm": 750,
+      "no_llm": 750
+    },
+    "rows": 1500
+  }
+}
